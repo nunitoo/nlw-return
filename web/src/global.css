@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-slate-900; /* just to rest my eyes uwu */
+}
+
+.main-width{
+    @apply absolute bottom-4 right-4;
+}
+
+.button {
+    @apply bg-brand-500 rounded-full px-3 h-12 text-white flex items-center;
+}
+
+.ChatTeardropDots{
+    @apply w-6 h-6;
+}
+
+.title-width{
+    @apply max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-linear;
+}
+
+.title-width:first-child{
+    @apply pl-2;
+}
