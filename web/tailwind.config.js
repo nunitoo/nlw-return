@@ -6,6 +6,9 @@ module.exports = {
         brand: {
           500: '#8257e6',
         }
+      },
+      screens: {
+        
       }
     },
   },

@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body{
-    @apply bg-slate-900; /* just to rest my eyes uwu */
+    @apply bg-zinc-900; /* just to rest my eyes uwu */
 }
 
 .main-width{
-    @apply absolute bottom-4 right-4;
+    @apply absolute bottom-4 right-4 md:bottom-8 md:right-8 flex flex-col items-end;
 }
 
 .button {
